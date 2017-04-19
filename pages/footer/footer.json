@@ -1,0 +1,35 @@
+{
+      "tabBar": {
+    "list": [{
+      "pagePath": "pages/footer/footer",
+      "text": "首页",
+       "iconPath": "/pages/img/icon/house.svg",
+      "selectedIconPath": "/pages/img/icon/house.svg"
+    },
+     {
+      "pagePath": "pages/footer/footer",
+      "text": "发现",
+      "iconPath": "/pages/img/icon/search.svg",
+      "selectedIconPath": "/pages/img/icon/search.svg"
+    },
+     {
+      "pagePath": "pages/footer/footer",
+      "text": "",
+      "iconPath": "/pages/img/icon/camera.svg",
+      "selectedIconPath": "/pages/img/icon/camera.svg"
+    },
+     {
+      "pagePath": "pages/footer/footer",
+      "text": "我的",
+        "iconPath": "/pages/img/icon/person.svg",
+      "selectedIconPath": "/pages/img/icon/person.svg"
+    },
+     {
+      "pagePath": "pages/footer/footer",
+      "text": "退出",
+      "iconPath": "/pages/img/icon/exit.svg",
+      "selectedIconPath": "/pages/img/icon/exit.svg"
+    }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+<import src="/pages/footer/footer.wxml" />
+<template is="footer"  data="{{...item}}"></template>
+<view class="classname" bindtap="fn1">21312</view>

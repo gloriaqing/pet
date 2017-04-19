@@ -1,0 +1,37 @@
+<template name="footer">
+<view class="footer">
+  <view class="footer-wrapper">
+    <navigator hover-class="navigator-hover" url="/pages/index/index" class="icon">
+
+    <view>              
+        <image src="../img/icon/house{{active==1?'-active':''}}.svg"></image>
+        <view class="icon-info {{active==1?'active':''}}">首页</view>
+    </view>
+    </navigator>
+    <navigator url="url" class="icon">
+ 
+        <image src="../img/icon/search{{active==2?'-active':''}}.svg"></image>
+        <view class="icon-info {{active==2?'active':''}}">发现</view>
+      <!--</view>-->
+    </navigator>  
+    <navigator url="url" class="icon camera">
+       <view class="camera-image">
+        <image src="../img/icon/camera.svg"></image>
+       </view>
+    </navigator>
+    <navigator url="/pages/logs/logs" class="icon">
+  
+        <image src="../img/icon/person{{active==3?'-active':''}}.svg"></image>
+        <view class="icon-info {{active==3?'active':''}}">我的</view>
+     
+    </navigator>
+   <navigator url="url" class="icon" >
+  
+        <image src="../img/icon/exit{{active==4?'-active':''}}.svg"></image>
+        <view class="icon-info {{active==4?'active':''}}">退出</view>
+   
+   </navigator>
+  </view>
+</view>
+
+</template>

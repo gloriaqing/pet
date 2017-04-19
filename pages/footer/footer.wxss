@@ -1,0 +1,14 @@
+
+.footer{position: fixed;height: 104rpx;width: 100%;text-align: center;bottom: 0;background: #fff}
+.footer-wrapper{display: flex;justify-content: space-between;position: relative}
+.footer image{width:40rpx;height: 40rpx;margin-top: 10rpx }
+.icon{width: 120rpx;flex: 1}
+.camera{width: 120rpx;height: 120rpx;border-radius: 50%;border:1rpx solid #ddd;margin-top: -23rpx;
+background: #fff}
+.camera-image image{width: 70rpx;height:70rpx;margin-top:20rpx;}
+
+.icon-info{font-size: 28rpx;color: #ddd;margin-top: -5rpx}
+.active{color: #0dc441}
+.navigator-hover {
+    color:blue;
+}

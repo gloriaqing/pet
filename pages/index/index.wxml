@@ -1,0 +1,51 @@
+<import src="/pages/footer/footer.wxml" />
+<view class="header">
+  <navigator class="hotpoint" url="url">热点</navigator>
+  <navigator class="focus" url="/pages/logs/logs">关注</navigator>
+    
+ 
+</view>
+<view class="nav">
+  <view class="nav-list {{navIndex==0?'nav-active':''}}" data-index="0" bindtap="changePage">pet动图</view>
+  <view class="nav-list {{navIndex==1?'nav-active':''}}" data-index="1" bindtap="changePage">pet漫画</view>
+  <view class="nav-list {{navIndex==2?'nav-active':''}}" data-index="2" bindtap="changePage">关爱动物</view>
+</view>
+
+<view class="section">
+  <swiper bindchange="swiperChange"  current="{{currentIndex}}"> 
+    
+      <swiper-item>  
+         <scroll-view scroll-y="true" style="height:490px;width: 100%;" bindscrolltolower="goDownFn1">
+              <view class="pic-list" wx:for="{{list1}}"  wx:key="{{index}}">
+              <image src="{{item.img}}" width="365" height="370"></image>
+              <view class="info">{{item.info}}</view>
+            </view>
+         </scroll-view>
+      </swiper-item>
+   
+  
+      <swiper-item>
+
+         <scroll-view scroll-y="true" style="height:490px;width: 100%;" bindscrolltolower="goDownFn2">
+              <view class="pic-list" wx:for="{{list2}}"  wx:key="{{index}}">
+              <image src="{{item.img}}" width="365" height="370"></image>
+              <view class="info">{{item.info}}</view>
+            </view>
+         </scroll-view>
+        
+      </swiper-item>
+
+       <swiper-item>
+            <view class="pic-list" wx:for="{{list2}}"  wx:key="{{index}}">
+              <image src="{{item.img}}" width="365" height="370"></image>
+              <view class="info">{{item.info}}</view>
+            </view>
+        
+      </swiper-item>
+   
+  </swiper>  
+  
+</view>
+
+
+<template is="footer" data="{{...item}}"></template>

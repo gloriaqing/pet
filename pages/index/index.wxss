@@ -1,0 +1,30 @@
+/**index.wxss**/
+@import "/pages/footer/footer.wxss";
+.header{z-index: 888;
+background: #0dc441;height: 105.3rpx;width: 100%;
+position: fixed;top:-0.1rpx;font-size: 28rpx;
+color:#fff;display: flex;align-items: center;
+text-align: center;}
+.nav-list{width: 33.3%;text-align: center}
+.nav-active{  
+    color: #0dc441;
+	border-bottom:6rpx solid #0dc441;
+}
+
+.hotpoint{width: 140rpx;height: 58rpx;background: #64d985;line-height: 58rpx;border-bottom-left-radius: 30rpx;
+border-top-left-radius: 30rpx;margin-left: 30%
+}
+.focus{width: 140rpx;height: 58rpx;background: #a3e9b7;line-height: 58rpx;border-bottom-right-radius: 30rpx;
+border-top-right-radius: 30rpx;}
+.nav{display: flex;width: 100%;justify-content: space-around;height:83rpx ;line-height: 83rpx;opacity: 0.6;
+position: fixed;top:100rpx;border-bottom: 1rpx solid #d9d9d9;font-size: 30rpx;color: #989898;}
+.section{position: absolute;top:195rpx;width: 750rpx;border-bottom: 1px solid #d9d9d9;bottom:104rpx;height: 950rpx; }
+swiper{height:940rpx;}
+.load{height:950rpx}
+swiper-item{overflow-y: scroll;height:470rpx}
+.pic-list{width: 365rpx;border: 1px solid #e8e8e8;
+margin-bottom: 10rpx}
+image{width:365rpx;height:370rpx}
+.info{height: 70rpx;line-height: 70rpx;font-size: 27rpx;margin-left: 20rpx}
+.pic-list:nth-child(odd){float: left}
+.pic-list:nth-child(even){float:right}
